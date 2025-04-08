@@ -1,0 +1,142 @@
+{
+  "products": [
+    {
+      "name": "Giày thể thao",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLS_dacmVDgVpC4MQNpYmAMeDAUDsBL6RG2A&s",
+      "description": "mo ta ",
+      "price": 2000000,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Giày nike trắng",
+      "price": 3000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsrRwE82q1AV6KUX9WqMASKwhSWm-loyYJDw&s",
+      "desc": "mo ta",
+      "description": "cv"
+    },
+    {
+      "name": "Giày công trường",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAT54PaXzFpYexxCIASy76YjrO7mczkNEIlg&s",
+      "description": "mô tả chi\n",
+      "price": 1000000,
+      "id": 4
+    },
+    {
+      "name": "Giày chạy bộ siêu nhẹ",
+      "price": 2000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpGcTc4Xb8cY-2imhTH8IJckl5x_icQQVZig&s",
+      "desc": "ngầu đét",
+      "id": 5,
+      "description": "hết nc chấm update"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "hungttph52525@gmail.com",
+      "password": "$2a$10$TwuPM..9PHZHib2lmxk9Nujz0urYYHnQHwvExY2sYqjYEILkgJzdW",
+      "username": "trantuanhung",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "john@example.com",
+      "password": "$2a$10$mKBfFzfGuZ1QBg8yHb3YRewXKc7RnaRSPJg/MgQ4/vy6Zv.PzaKw6",
+      "username": "admin",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "email": "hieu@gmail.com",
+      "password": "$2a$10$CEmw54bOloWubjiOLJ50betclZvQutxm3lP26UjrLQlE46v85SQWG",
+      "username": "hieu",
+      "role": "admin",
+      "id": 3
+    },
+    {
+      "email": "hieu123@gmail.com",
+      "password": "$2a$10$P/Y/bSgdw2gYJXuGzPFt1eeSp7T1vUYnEknr4.t3tje3eNnt97GPa",
+      "username": "hieu",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "email": "hieuvdph52650@gmail.com",
+      "password": "$2a$10$BPWe2oOwkO.Tg3S43NtRAuNeLosJRNvcptd7On6p6LmVqvc8oOdvy",
+      "username": "hieu",
+      "role": "user",
+      "id": 5
+    }
+  ],
+  "order": [
+    {
+      "productId": 1,
+      "quantity": 2,
+      "id": 1,
+      "status": "canceled"
+    },
+    {
+      "productId": 1,
+      "quantity": 2,
+      "id": 2,
+      "status": "pending",
+      "totalPrice": 4000000
+    },
+    {
+      "productId": 1,
+      "quantity": 2,
+      "id": 3
+    },
+    {
+      "productId": 2,
+      "quantity": 3,
+      "id": 4
+    },
+    {
+      "productId": 4,
+      "quantity": 3,
+      "id": 5,
+      "status": "canceled"
+    },
+    {
+      "productId": 1,
+      "quantity": 3,
+      "id": 6,
+      "status": "success",
+      "totalPrice": 6000000
+    },
+    {
+      "productId": 4,
+      "quantity": 3,
+      "id": 7,
+      "status": "canceled"
+    },
+    {
+      "productId": 1,
+      "quantity": 1,
+      "id": 8,
+      "status": "success"
+    },
+    {
+      "productId": 5,
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "productId": 1,
+      "quantity": 1,
+      "id": 10,
+      "status": "canceled"
+    },
+    {
+      "productId": 1,
+      "quantity": 5,
+      "id": 11
+    }
+  ]
+}
