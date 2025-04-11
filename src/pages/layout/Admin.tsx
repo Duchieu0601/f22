@@ -13,13 +13,13 @@ const { Header, Sider, Content } = Layout;
 const AdminLayout = () => {
   const navigate = useNavigate();
   
-  // useEffect(() => {
-  //   const token = localStorage.getItem("token");
-  //   const isAdmin = localStorage.getItem("isAdmin");
-  //   if (!token || isAdmin !== "true") {
-  //     navigate("/client/login");
-  //   }
-  // }, [navigate]);
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    const isAdmin = localStorage.getItem("isAdmin");
+    if (!token || isAdmin !== "true") { 
+      navigate("/client/login");
+    }
+  }, [navigate]);
 
   return (
     <Layout style={{ minHeight: "100vh" }}>
