@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "San pham A",
+      "price": 32,
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+      "desc": "mo ta"
+    },
+    {
+      "id": 2,
+      "name": "San pham A",
+      "price": 32,
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+      "desc": "mo ta"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "hoadv21@fpt.edu.vn",
+      "password": "$2a$10$S/HSKMC8axUCFeK1fJt.zOt9YS/gYfgNHsmEQcsaP0ksfome2XAHy",
+      "id": 1
+    },
+    {
+      "email": "hoadv212@fpt.edu.vn",
+      "password": "$2a$10$bV3.1oWyur8Sh25OwFJdn.lYvIyf0LB0VnwtJpokG/JC2UsxwrWf6",
+      "id": 2
+    },
+    {
+      "email": "hoadv21442@fpt.edu.vn",
+      "password": "$2a$10$XrCxu6EiZa7DUd0kuXTNGeJpBFvibpiUPsH6fTOa1aJNAAi8jy.CG",
+      "id": 3
+    },
+    {
+      "email": "dangnnph52570@gmail.com",
+      "password": "$2a$10$FF640y5NgSR1l3zNDsfmAuGQaY8sGCJdNDXD1cCO1qtcuuqMlRN/.",
+      "id": 4
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$IzC9U6TJCrYe1m/EAXXn.uWxq.hnVWOM8IYuEQqqmlz4lN9nBWYDW",
+      "id": 5
+    }
+  ]
+}
